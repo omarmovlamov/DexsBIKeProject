@@ -1,0 +1,98 @@
+.faqs {
+  padding-top: 6vw;
+  padding-bottom: 4vw;
+  width: 100%;
+  height: 100%;
+  background-color: #2953cc;
+}
+.faqs-container {
+  color: #fff;
+  display: flex;
+}
+.faqs h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+.faqs-left {
+  width: 100%;
+}
+.faqs-text {
+  padding: 10px 30px;
+}
+.faqs-text h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 1vw;
+  margin: 0;
+}
+.faqs-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  line-height: 1.375;
+  font-size: 1rem;
+  padding: 1vw;
+  margin: 0;
+  text-align: left;
+}
+.faqs-right img {
+  border-radius: 40px;
+}
+.faqs-right {
+  width: 100%;
+}
+.faqs-right .faqs-top {
+  display: flex;
+  justify-content: center;
+}
+.faqs-bottom {
+  display: flex;
+  justify-content: center;
+}
+.faqs-top img {
+  height: 350px;
+  padding: 1vw;
+}
+.faqs-bottom img {
+  width: 400px;
+  padding: 1vw;
+}
+.composite {
+  padding: 1vw;
+  height: 0;
+  width: 100%;
+  margin: 12px 1vw;
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: dotted;
+}
+@media (max-width: 960px) {
+  .faqs-text {
+    padding-bottom: 30px;
+  }
+  .faqs-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .faqs-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .faqs-top img {
+    width: 100dvw;
+    height: 90dvh;
+  }
+  .faqs {
+    padding-bottom: 10vw;
+  }
+}
