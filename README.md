@@ -1,4 +1,28 @@
-live: https://dexsbike.netlify.app/
+<h1>Dexs BIKe Project</h1>
+</br>
+<h2>Demo Link: https://dexsbike.netlify.app/</h2>
+ 
+
+If you want to explore my project or contribute, please visit the GitHub repository.
+</br>
+<h2>Technologies Used:</h2>
+<ul>
+<li>React.js</li>
+<li>JavaScript</li>
+<li>HTML5</li>
+<li>CSS3</li>
+</ul>
+</br>
+<h2>Project Setup:</h2>
+<ol>
+  <li>Clone this project: git clone https://github.com/omarmovlamov/DexsBIKeProject</li>
+  <li>Navigate to the project directory: cd DexsBIKeProject</li>
+  <li>Install the necessary dependencies using npm install or yarn install command.</li>
+  <li>Start the application with npm start or yarn start command.</li>
+</ol>
+
+
+</br></br>
 
 # React + Vite
 
